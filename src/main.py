@@ -1,15 +1,14 @@
-import config
-import fetch
-import filter
-import save
+from config import config_reader
+from api import fetch
+from storage import filter, save
 
-GROUPS_CONFIG_FILE = "groups_config.json"
+GROUPS_CONFIG_FILE = "config/groups_config.json"
 
 
 def main():
     
     print("Starting KDE top-level groups fetch...")
-    configuration = config.load_config(GROUPS_CONFIG_FILE)
+    configuration = config_reader.load_config(GROUPS_CONFIG_FILE)
     
     base_url = configuration['base_url']
     per_page = configuration['per_page']

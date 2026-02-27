@@ -1,7 +1,7 @@
 {
   "base_url": "https://invent.kde.org/api/v4/groups",
   "per_page": 50,
-  "groups_file": "groups.json",
+  "groups_file": "storage/groups.json",
   "desired_fields": [
     "id",
     "name",

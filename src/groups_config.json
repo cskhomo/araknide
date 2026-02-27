@@ -1,0 +1,12 @@
+{
+  "base_url": "https://invent.kde.org/api/v4/groups",
+  "per_page": 50,
+  "groups_file": "groups.json",
+  "desired_fields": [
+    "id",
+    "name",
+    "path",
+    "web_url",
+    "description"
+  ]
+}

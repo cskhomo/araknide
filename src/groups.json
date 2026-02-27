@@ -1,0 +1,233 @@
+[
+  {
+    "id": 1555,
+    "name": "Accessibility",
+    "path": "accessibility",
+    "web_url": "https://invent.kde.org/groups/accessibility",
+    "description": "Applications aimed at making computing more accessible"
+  },
+  {
+    "id": 42226,
+    "name": "Automotive",
+    "path": "automotive",
+    "web_url": "https://invent.kde.org/groups/automotive",
+    "description": "Components useful for deployment of KDE software in an automotive setting"
+  },
+  {
+    "id": 1572,
+    "name": "Documentation",
+    "path": "documentation",
+    "web_url": "https://invent.kde.org/groups/documentation",
+    "description": "Documentation for some of the KDE software"
+  },
+  {
+    "id": 1564,
+    "name": "Education",
+    "path": "education",
+    "web_url": "https://invent.kde.org/groups/education",
+    "description": "Applications, libraries and add-ons for educational and scientific purposes"
+  },
+  {
+    "id": 1552,
+    "name": "Frameworks",
+    "path": "frameworks",
+    "web_url": "https://invent.kde.org/groups/frameworks",
+    "description": "KDE Frameworks, cross-platform add-on libraries for coding applications with Qt"
+  },
+  {
+    "id": 1567,
+    "name": "Games",
+    "path": "games",
+    "web_url": "https://invent.kde.org/groups/games",
+    "description": "Applications for fun and entertainment"
+  },
+  {
+    "id": 1566,
+    "name": "Graphics",
+    "path": "graphics",
+    "web_url": "https://invent.kde.org/groups/graphics",
+    "description": "Applications, libraries and add-ons that display and edit computer graphics"
+  },
+  {
+    "id": 1548,
+    "name": "Historical",
+    "path": "historical",
+    "web_url": "https://invent.kde.org/groups/historical",
+    "description": "Repositories that serve a historical purpose"
+  },
+  {
+    "id": 35566,
+    "name": "KDE Linux",
+    "path": "kde-linux",
+    "web_url": "https://invent.kde.org/groups/kde-linux",
+    "description": "Work-in-progress of a KDE-owned general-purpose Linux® distribution"
+  },
+  {
+    "id": 1554,
+    "name": "KDevelop",
+    "path": "kdevelop",
+    "web_url": "https://invent.kde.org/groups/kdevelop",
+    "description": "Cross-platform IDE for C, C++, Python, QML/JavaScript and PHP"
+  },
+  {
+    "id": 1563,
+    "name": "Libraries",
+    "path": "libraries",
+    "web_url": "https://invent.kde.org/groups/libraries",
+    "description": "Various useful libraries used by other KDE projects"
+  },
+  {
+    "id": 44641,
+    "name": "Localization",
+    "path": "localization",
+    "web_url": "https://invent.kde.org/groups/localization",
+    "description": "Localization and Internationalization for KDE software"
+  },
+  {
+    "id": 1557,
+    "name": "Maui",
+    "path": "maui",
+    "web_url": "https://invent.kde.org/groups/maui",
+    "description": "Modular front-end framework for developing fast and compelling user experiences"
+  },
+  {
+    "id": 35667,
+    "name": "Mirrors",
+    "path": "mirrors",
+    "web_url": "https://invent.kde.org/groups/mirrors",
+    "description": "Mirrors of open source software, synced from their upstream repositories."
+  },
+  {
+    "id": 1549,
+    "name": "Multimedia",
+    "path": "multimedia",
+    "web_url": "https://invent.kde.org/groups/multimedia",
+    "description": "Applications for multimedia playback, processing and creation"
+  },
+  {
+    "id": 2647,
+    "name": "Neon",
+    "path": "neon",
+    "web_url": "https://invent.kde.org/groups/neon",
+    "description": "Packaging information for the Neon distribution"
+  },
+  {
+    "id": 1551,
+    "name": "Network",
+    "path": "network",
+    "web_url": "https://invent.kde.org/groups/network",
+    "description": "Applications and add-ons that interact with Internet and other networks"
+  },
+  {
+    "id": 1565,
+    "name": "Office",
+    "path": "office",
+    "web_url": "https://invent.kde.org/groups/office",
+    "description": "Office applications that work with documents, databases and finances."
+  },
+  {
+    "id": 1550,
+    "name": "Packaging",
+    "path": "packaging",
+    "web_url": "https://invent.kde.org/groups/packaging",
+    "description": "Data and tools that help deliver KDE software to its users"
+  },
+  {
+    "id": 1553,
+    "name": "PIM",
+    "path": "pim",
+    "web_url": "https://invent.kde.org/groups/pim",
+    "description": "Applications, libraries and add-ons for personal information management"
+  },
+  {
+    "id": 1568,
+    "name": "Plasma",
+    "path": "plasma",
+    "web_url": "https://invent.kde.org/groups/plasma",
+    "description": "Desktop environment for a wide range of devices and user needs"
+  },
+  {
+    "id": 5175,
+    "name": "Plasma Bigscreen",
+    "path": "plasma-bigscreen",
+    "web_url": "https://invent.kde.org/groups/plasma-bigscreen",
+    "description": "Open-source user interface for Televisions, based on Plasma technologies"
+  },
+  {
+    "id": 1547,
+    "name": "Plasma Mobile",
+    "path": "plasma-mobile",
+    "web_url": "https://invent.kde.org/groups/plasma-mobile",
+    "description": "Open-source user interface for phones, based on Plasma technologies"
+  },
+  {
+    "id": 989,
+    "name": "Qt Project",
+    "path": "qt",
+    "web_url": "https://invent.kde.org/groups/qt",
+    "description": "Replica of the Qt Project repositories, containing the KDE maintained patch branches in addition to everything from upstream."
+  },
+  {
+    "id": 1560,
+    "name": "Rolisteam",
+    "path": "rolisteam",
+    "web_url": "https://invent.kde.org/groups/rolisteam",
+    "description": "Virtual tabletop software that helps manage tabletop role playing games with remote friends/players"
+  },
+  {
+    "id": 1558,
+    "name": "SDK",
+    "path": "sdk",
+    "web_url": "https://invent.kde.org/groups/sdk",
+    "description": "Applications and scripts that ease software development"
+  },
+  {
+    "id": 6,
+    "name": "Sysadmin",
+    "path": "sysadmin",
+    "web_url": "https://invent.kde.org/groups/sysadmin",
+    "description": "KDE sysadmin team and infrastructure-related repositories"
+  },
+  {
+    "id": 1561,
+    "name": "System",
+    "path": "system",
+    "web_url": "https://invent.kde.org/groups/system",
+    "description": "Programs that interact with lower-level operating system components"
+  },
+  {
+    "id": 638,
+    "name": "Teams",
+    "path": "teams",
+    "web_url": "https://invent.kde.org/groups/teams",
+    "description": ""
+  },
+  {
+    "id": 1562,
+    "name": "Unmaintained",
+    "path": "unmaintained",
+    "web_url": "https://invent.kde.org/groups/unmaintained",
+    "description": "Projects that do not have a maintainer and are not currently active"
+  },
+  {
+    "id": 1556,
+    "name": "Utilities",
+    "path": "utilities",
+    "web_url": "https://invent.kde.org/groups/utilities",
+    "description": "Software utilities for a wide range of tasks, developed by KDE"
+  },
+  {
+    "id": 1559,
+    "name": "Web applications",
+    "path": "webapps",
+    "web_url": "https://invent.kde.org/groups/webapps",
+    "description": "Web applications developed by KDE"
+  },
+  {
+    "id": 8,
+    "name": "Websites",
+    "path": "websites",
+    "web_url": "https://invent.kde.org/groups/websites",
+    "description": "Websites about the KDE community and its projects"
+  }
+]

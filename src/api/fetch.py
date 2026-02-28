@@ -3,69 +3,69 @@ import time
 from typing import List, Dict
 
 
+def fetch_all(url: str, per_page: int) -> List[Dict]:
+    """
+    Fetch all pages from a paginated GitLab endpoint.
+
+    Args:
+        url (str): Full API endpoint URL.
+        per_page (int): Items per page.
+
+    Returns:
+        List[Dict]: Combined results from all pages.
+    """
+    results = []
+    page = 1
+
+    while True:
+        params = set_parameters(per_page, page)
+        data = fetch_page(url, params)
+
+        if not data:
+            break
+
+        results.extend(data)
+        print(f"Page {page}: {len(data)} entries fetched")
+
+        page += 1
+        time.sleep(0.5)
+
+    return results
+    
+
 def set_parameters(per_page: int, page: int) -> Dict:
     """
-    Set query parameters for a GitLab API request for a page of groups.
+    Build query parameters for a paginated GitLab API request.
 
     Args:
         per_page (int): Number of items per page.
-        page (int): Page number to fetch.
+        page (int): Page number.
 
     Returns:
-        Dict: Dictionary of query parameters for the request.
+        Dict: Query parameters dictionary.
     """
     return {
-        'per_page': per_page,
-        'page': page,
-        'top_level_only': 'true'
+        "per_page": per_page,
+        "page": page,
+        "top_level_only": "true"
     }
 
 
 def fetch_page(url: str, params: Dict) -> List[Dict]:
     """
-    Fetch a single page of groups from the GitLab API.
+    Fetch a single page from a GitLab API endpoint.
 
     Args:
-        url (str): The full API URL for fetching groups.
-        params (Dict): Query parameters for the request.
+        url (str): Full API endpoint URL.
+        params (Dict): Query parameters.
 
     Returns:
-        List[Dict]: List of groups returned by the API.
-        Returns an empty list if the request fails.
+        List[Dict]: API results for that page. Empty list if failed.
     """
     response = requests.get(url, params=params)
-    
+
     if response.status_code != 200:
         print(f"Error {response.status_code} on page {params['page']}: {response.text.strip()}")
         return []
-        
+
     return response.json()
-
-
-def get_groups(base_url: str, per_page: int) -> List[Dict]:
-    """
-    Fetch all top-level groups from GitLab across all pages.
-
-    Args:
-        base_url (str): Full API endpoint URL for groups.
-        per_page (int): Number of items to request per page.
-
-    Returns:
-        List[Dict]: Combined list of all groups across all pages.
-    """
-    groups = []
-    page = 1
-
-    while True:
-        params = set_parameters(per_page, page)
-        data = fetch_page(base_url, params)
-
-        if not data: break
-
-        groups.extend(data)
-        print(f"Page {page}: {len(data)} entries fetched")
-        
-        page += 1
-        time.sleep(0.5)
-
-    return groups

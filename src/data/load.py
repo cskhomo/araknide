@@ -2,9 +2,9 @@ import json
 from typing import Dict
 
 
-def load_config(path: str) -> Dict:
+def read_json(path: str) -> Dict:
     """
-    Load configuration from a JSON file.
+    Read configuration from a JSON file.
 
     Args:
         path (str): Path to the configuration JSON file.

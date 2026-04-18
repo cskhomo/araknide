@@ -56,8 +56,9 @@ coverage.xml
 # PyCharm
 .idea/
 
-# VS Code
+# IDE
 .vscode/
+.idea/
 
 # Logs
 *.log
